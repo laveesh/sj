@@ -190,7 +190,8 @@ $(function() {
 function initMap() {
   var platform = new H.service.Platform({
     app_id: 'g293Y9wAsc9LB5PAiTd4',
-    app_code: '0PvAcfQ1xQIRA9DSZr88hw'
+    app_code: '0PvAcfQ1xQIRA9DSZr88hw',
+    useHTTPS: true
   });
 
   var maptypes = platform.createDefaultLayers();
