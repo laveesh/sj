@@ -20,7 +20,6 @@ $(function() {
         'NOV',
         'DEC'
       ];
-      console.log(response);
       var output = '';
       $.each(response.items, function(k, item) {
         output +=
@@ -63,7 +62,6 @@ $(function() {
           pubDate.getFullYear();
         output += '</div> <div class="clearfix"></div>';
         output += '</div></div></div>';
-        console.log(output);
       });
       $content.html(output);
     }
