@@ -8513,10 +8513,6 @@ input[type=range]:focus::-ms-fill-upper {
   -webkit-overflow-scrolling: touch;
 }
 
-/*!
- * Default mobile-first, responsive styling for pickadate.js
- * Demo: http://amsul.github.io/pickadate.js
- */
 /**
  * Note: the root picker element should *NOT* be styled more than what's here.
  */
