@@ -63,7 +63,7 @@ $(function() {
   /***
    **** Validate contact form
    ***/
-  $('#cform').validate({
+  $('#gform').validate({
     rules: {
       name: {
         required: true
@@ -88,32 +88,16 @@ $(function() {
       $(element).addClass('valid');
     },
     success: 'valid',
-    submitHandler: function() {
+    submitHandler: function(form) {
       $.ajax({
-        url: 'mailer/feedback.php',
+        url: form.action,
         type: 'post',
         dataType: 'json',
-        data:
-          'name=' +
-          $('#cform')
-            .find('input[name="name"]')
-            .val() +
-          '&email=' +
-          $('#cform')
-            .find('input[name="email"]')
-            .val() +
-          '&subject=' +
-          $('#cform')
-            .find('input[name="subject"]')
-            .val() +
-          '&message=' +
-          $('#cform')
-            .find('textarea[name="message"]')
-            .val(),
+        data: $('#gform').serialize(),
         beforeSend: function() {},
         complete: function() {},
         success: function(data) {
-          $('#cform').fadeOut();
+          $('#gform').fadeOut();
           $('.alert-success')
             .delay(1000)
             .fadeIn();
