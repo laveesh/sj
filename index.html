@@ -1,1339 +1,1952 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <!-- Basic -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Dr. Sunil Kumar Jangir</title>
-    <meta name="description" content="mateCard - Materialize vCard/CV/Resume HTML Template" />
-    <meta name="keywords" content="vcard, responsive, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta
+      name="description"
+      content="mateCard - Materialize vCard/CV/Resume HTML Template"
+    />
+    <meta
+      name="keywords"
+      content="vcard, responsive, resume, jquery, css3, bootstrap, Material CV, portfolio"
+    />
     <meta name="author" content="beshleyua" />
 
     <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
     <!-- Load Fonts -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/materialize.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/animate.css" />
-	<link rel="stylesheet" href="css/ionicons.css" />
-    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css" />
-	
+    <link rel="stylesheet" href="css/ionicons.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://js.api.here.com/v3/3.0/mapsjs-ui.css"
+    />
 
     <!--    Bootstrap CDN-->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
     <!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/man.jpeg">
+    <link rel="shortcut icon" href="images/man.jpeg" />
+  </head>
 
-</head>
+  <body>
+    <!-- Page -->
+    <div class="page" id="home-section">
+      <!-- Preloader -->
+      <div class="preloader">
+        <div class="centrize full-width">
+          <div class="vertical-center">
+            <div class="preloader-wrapper spinner big active">
+              <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                  <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                  <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                  <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                  <div class="circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<body>
-	
-	<!-- Page -->
-	<div class="page" id="home-section">
+      <!-- Header -->
+      <header>
+        <!-- SideNav -->
+        <ul class="side-nav fixed" id="nav-mobile">
+          <li class="curent">
+            <div class="userView">
+              <div class="background">
+                <img src="images/slide-bg.jpg" alt="" />
+              </div>
+              <img class="avatar circle" src="images/man.jpeg" alt="" />
+              <div class="white-text name">Dr. Sunil Kumar Jangir</div>
+              <div class="white-text email">
+                <a
+                  href="mailto:simply.jangir07@gmail.com"
+                  style="color: white !important;"
+                  >simply.jangir07@gmail.com</a
+                >
+              </div>
+              <div class="social">
+                <a href="https://www.facebook.com/sunil.jangir07" target="blank"
+                  ><i class="ion ion-social-facebook"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/dr-sunil-kumar-jangir-95552912/"
+                  target="blank"
+                  ><i class="ion ion-social-linkedin"></i
+                ></a>
+                <a href="https://github.com/suniljangir" target="blank"
+                  ><i class="ion ion-social-github"></i
+                ></a>
+              </div>
+            </div>
+          </li>
+          <li class="active">
+            <a href="#started-section" class="waves-effect waves-light">
+              <i class="material-icons">home</i>Home
+            </a>
+          </li>
+          <li>
+            <a href="#about-section" class="waves-effect waves-light">
+              <i class="material-icons">person_pin</i>About
+            </a>
+          </li>
+          <li>
+            <a href="#experience-section" class="waves-effect waves-light">
+              <i class="material-icons">assignment</i>Experience
+            </a>
+          </li>
+          <li>
+            <a href="#education-section" class="waves-effect waves-light">
+              <i class="material-icons">assignment</i>Education
+            </a>
+          </li>
+          <li>
+            <a href="#service-section" class="waves-effect waves-light">
+              <i class="material-icons">art_track</i>Research Papers
+            </a>
+          </li>
+          <li>
+            <a href="#works-section" class=" waves-effect waves-light">
+              <i class="material-icons">work</i>Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="#pricing-section" class="waves-effect waves-light">
+              <i class="material-icons">view_carousel</i>References
+            </a>
+          </li>
+          <li>
+            <a href="#blog-section" class="waves-effect waves-light">
+              <i class="material-icons">library_books</i>Blog
+            </a>
+          </li>
+          <li>
+            <a href="#contact-section" class="waves-effect waves-light">
+              <i class="material-icons">phone</i>Contact
+            </a>
+          </li>
+        </ul>
 
-		<!-- Preloader -->
-		<div class="preloader">
-			<div class="centrize full-width">
-				<div class="vertical-center">
-					<div class="preloader-wrapper spinner big active">
-						<div class="spinner-layer spinner-blue">
-							<div class="circle-clipper left">
-								<div class="circle"></div>
-							</div>
-							<div class="gap-patch">
-								<div class="circle"></div>
-							</div>
-							<div class="circle-clipper right">
-								<div class="circle"></div>
-							</div>
-						</div>
-						<div class="spinner-layer spinner-red">
-							<div class="circle-clipper left">
-								<div class="circle"></div>
-							</div>
-							<div class="gap-patch">
-								<div class="circle"></div>
-							</div>
-							<div class="circle-clipper right">
-								<div class="circle"></div>
-							</div>
-						</div>
-						<div class="spinner-layer spinner-green">
-							<div class="circle-clipper left">
-								<div class="circle"></div>
-							</div>
-							<div class="gap-patch">
-								<div class="circle"></div>
-							</div>
-							<div class="circle-clipper right">
-								<div class="circle"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Header -->
-		<header>
-
-			<!-- SideNav -->
-			<ul class="side-nav fixed" id="nav-mobile">
-				<li class="curent">
-					<div class="userView">
-	  					<div class="background">
-	  						<img src="images/slide-bg.jpg" alt="" />
-	  					</div>
-	  					<img class="avatar circle" src="images/man.jpeg" alt="" />
-	  					<div class="white-text name">Dr. Sunil Kumar Jangir</div>
-	  					<div class="white-text email"><a href="mailto:simply.jangir07@gmail.com" style="color: white !important;">simply.jangir07@gmail.com</a></div>
-	  					<div class="social">
-							<a href="https://www.facebook.com/sunil.jangir07" target="blank"><i class="ion ion-social-facebook"></i></a>
-							<a href="https://www.linkedin.com/in/dr-sunil-kumar-jangir-95552912/" target="blank"><i class="ion ion-social-linkedin"></i></a>
-							<a href="https://github.com/suniljangir" target="blank"><i class="ion ion-social-github"></i></a>
-						</div>
-					</div>
-				</li>
-				<li class="active">
-					<a href="#started-section" class="waves-effect waves-light">
-						<i class="material-icons">home</i>Home
-					</a>
-				</li>
-				<li>
-					<a href="#about-section" class="waves-effect waves-light">
-						<i class="material-icons">person_pin</i>About
-					</a>
-				</li>
-				<li>
-					<a href="#experience-section" class="waves-effect waves-light">
-						<i class="material-icons">assignment</i>Experience
-					</a>
-				</li>
-				<li>
-					<a href="#education-section" class="waves-effect waves-light">
-						<i class="material-icons">assignment</i>Education
-					</a>
-				</li>
-				<li>
-					<a href="#service-section" class="waves-effect waves-light">
-						<i class="material-icons">art_track</i>Research Papers
-					</a>
-				</li>
-				<li>
-					<a href="#works-section" class=" waves-effect waves-light">
-						<i class="material-icons">work</i>Portfolio
-					</a>
-				</li>
-				<li>
-					<a href="#pricing-section" class="waves-effect waves-light">
-						<i class="material-icons">view_carousel</i>References
-					</a>
-				</li>
-				<li>
-					<a href="#blog-section" class="waves-effect waves-light">
-						<i class="material-icons">library_books</i>Blog
-					</a>
-				</li>
-				<li>
-					<a href="#contact-section" class="waves-effect waves-light">
-						<i class="material-icons">phone</i>Contact
-					</a>
-				</li>
-			</ul>
-
-			<!-- Top menu -->
-			<nav class="top-menu">
-				<div class="nav-wrapper">
-					<ul>
-						<li>
-							<a href="#" data-activates="nav-mobile" class="menu-btn"><i class="material-icons">menu</i></a>
-						</li>
-						<!--<li class="right">
+        <!-- Top menu -->
+        <nav class="top-menu">
+          <div class="nav-wrapper">
+            <ul>
+              <li>
+                <a href="#" data-activates="nav-mobile" class="menu-btn"
+                  ><i class="material-icons">menu</i></a
+                >
+              </li>
+              <!--<li class="right">
 							<a href="#"><i class="material-icons">arrow_back</i></a>
 						</li>-->
-					</ul>
-				</div>
-			</nav>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-		</header>
+      <main>
+        <!-- Container -->
+        <div class="container scrollspy" id="started-section">
+          <!-- Section About -->
+          <div class="section started">
+            <!-- Profile -->
+            <div class="card profile">
+              <div
+                class="card-image"
+                style="background-image: url(images/profile-bg.jpg);"
+              ></div>
+              <div class="card-content">
+                <div class="row">
+                  <div class="col s12 m5 l6">
+                    <figure class="card-profile-image">
+                      <img
+                        class="circle z-depth-1 responsive-img"
+                        src="images/man.jpeg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="card-profile-desc">
+                      <h4 class="card-title grey-text text-darken-4">
+                        Dr. Sunil Kumar Jangir
+                      </h4>
+                      <p class="medium-small grey-text">
+                        Ph.D. in Computer Science and Engineering
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col s4 m3 l2 center-align">
+                    <h4 class="card-title grey-text text-darken-4">11+</h4>
+                    <p class="medium-small grey-text">Years Experience</p>
+                  </div>
+                  <div class="col s4 m2 l2 center-align">
+                    <h4 class="card-title grey-text text-darken-4">20</h4>
+                    <p class="medium-small grey-text">
+                      Research Papers Published
+                    </p>
+                  </div>
+                  <div class="col s4 m2 l2 center-align">
+                    <h4 class="card-title grey-text text-darken-4">150+</h4>
+                    <p class="medium-small grey-text">Citations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-		<main>
+            <!-- Stats -->
+            <div class="stats">
+              <div class="row">
+                <div class="col s12 m6 l3">
+                  <div class="card red darken-2">
+                    <div
+                      class="card-content white-text center-align"
+                      style="height:14rem;"
+                    >
+                      <p class="card-title">
+                        <i class="material-icons">code</i><br /><strong>
+                          Best Project Award</strong
+                        >
+                      </p>
+                      <p>IT Department Project: Multi-Touch Detection System</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6 l3">
+                  <div class="card green darken-2">
+                    <div
+                      class="card-content white-text center-align"
+                      style="height:14rem;"
+                    >
+                      <p class="card-title">
+                        <i class="material-icons">recent_actors</i><br /><strong
+                          >Rank I</strong
+                        >
+                      </p>
+                      <p>
+                        M.Tech Software Engineering Suresh Gyan Vihar University
+                        Jaipur I/II/III/IV Semester
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6 l3">
+                  <div class="card cyan darken-2">
+                    <div
+                      class="card-content white-text center-align"
+                      style="height:14rem;"
+                    >
+                      <p class="card-title">
+                        <i class="material-icons">done_all</i><br /><strong>
+                          Best Student</strong
+                        >
+                      </p>
+                      <p>Award Bharat Vikas Parishad</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6 l3">
+                  <div class="card amber darken-2">
+                    <div
+                      class="card-content white-text center-align"
+                      style="height:14rem;"
+                    >
+                      <p class="card-title">
+                        <i class="material-icons">supervisor_account</i
+                        ><br /><strong>55<sup>th</sup> Rank</strong>
+                      </p>
+                      <p>10th Standard Rajasthan Board</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-			<!-- Container -->
-			<div class="container scrollspy" id="started-section">
+          <!-- Section About -->
+          <div class="section about scrollspy" id="about-section">
+            <!-- Title -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="grey-text text-darken-2 left-align">About Me</h5>
+              </div>
+            </div>
 
-				<!-- Section About -->
-				<div class="section started">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <div class="card-panel">
+                  <div class="text-box">
+                    <p>
+                      An Energetic, dedicated person with good communication and
+                      leadership qualities to motivate people to achieve
+                      organizational objectives.
+                    </p>
+                    <p>
+                      Full time assistant professor in the Department of
+                      Computer Science and Engineering, Mody University of
+                      Science &amp; Technology, Lakshmangarh, Dist. Sikar,
+                      Rajasthan – India, India, Affiliated to UGC and approved
+                      by AICTE, New Delhi.
+                    </p>
+                  </div>
+                  <div class="bts">
+                    <a
+                      href="Dr_Sunil_Jangir_Resume.pdf"
+                      class="btn waves-effect waves-light"
+                      >Download CV</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-info z-depth-1">
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m5 l5 grey-text darken-1">
+                        <i class="material-icons">perm_identity</i> Age:
+                      </div>
+                      <div
+                        class="col s6 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        32 Years
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m5 l5 grey-text darken-1">
+                        <i class="material-icons">work</i> Job:
+                      </div>
+                      <div
+                        class="col s6 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        Assistant Professor
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m5 l5 grey-text darken-1">
+                        <i class="material-icons">location_on</i> Citizenship:
+                      </div>
+                      <div
+                        class="col s6 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        India
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m5 l5 grey-text darken-1">
+                        <i class="material-icons">business</i> Address:
+                      </div>
+                      <div
+                        class="col s6 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        Jaipur
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-info z-depth-1">
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s8 m5 l5 grey-text darken-1">
+                        <i class="material-icons">invert_colors</i> Conferences:
+                      </div>
+                      <div
+                        class="col s4 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        16
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s8 m5 l5 grey-text darken-1">
+                        <i class="material-icons">language</i> International
+                        Journal:
+                      </div>
+                      <div
+                        class="col s4 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        6
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s8 m5 l5 grey-text darken-1">
+                        <i class="material-icons">stars</i>Training Programs:
+                      </div>
+                      <div
+                        class="col s4 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        8
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s8 m5 l5 grey-text darken-1">
+                        <i class="material-icons">album</i>Initiatives:
+                      </div>
+                      <div
+                        class="col s4 m7 l7 grey-text text-darken-4 right-align"
+                      >
+                        4
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-skills z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle green darken-2">person</i>
+                    <div class="title">Professional Skills</div>
+                    <p></p>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Educational Technology</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress green lighten-5">
+                          <div
+                            class="determinate green darken-2"
+                            style="width: 85%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Project Management</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress green lighten-5">
+                          <div
+                            class="determinate green darken-2"
+                            style="width: 92%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Curiculum Development</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress green lighten-5">
+                          <div
+                            class="determinate green darken-2"
+                            style="width: 82%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Professional Mentoring</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress green lighten-5">
+                          <div
+                            class="determinate green darken-2"
+                            style="width: 95%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">C/C++</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress green lighten-5">
+                          <div
+                            class="determinate green darken-2"
+                            style="width: 70%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-skills z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle red darken-2">forum</i>
+                    <div class="title">Personal Skills</div>
+                    <p></p>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Public Speaking</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress red lighten-5">
+                          <div
+                            class="determinate red darken-2"
+                            style="width: 85%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Youth Mentoring</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress red lighten-5">
+                          <div
+                            class="determinate red darken-2"
+                            style="width: 90%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Career Counselling</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress red lighten-5">
+                          <div
+                            class="determinate red darken-2"
+                            style="width: 89%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Technical Leadership</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress red lighten-5">
+                          <div
+                            class="determinate red darken-2"
+                            style="width: 92%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s6 m4 l4">
+                        <div class="title">Motivational Speaking</div>
+                      </div>
+                      <div class="col s6 m8 l8">
+                        <div class="progress red lighten-5">
+                          <div
+                            class="determinate red darken-2"
+                            style="width: 95%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-					<!-- Profile -->
-					<div class="card profile">
-						<div class="card-image" style="background-image: url(images/profile-bg.jpg);"></div>
-						<div class="card-content">
-							<div class="row">
-								<div class="col s12 m5 l6">
-									<figure class="card-profile-image">
-										<img class="circle z-depth-1 responsive-img" src="images/man.jpeg" alt="" />
-									</figure>
-									<div class="card-profile-desc">
-										<h4 class="card-title grey-text text-darken-4">Dr. Sunil Kumar Jangir</h4>
-										<p class="medium-small grey-text">Ph.D. in Computer Science and Engineering</p>
-									</div>
-								</div>
-								<div class="col s4 m3 l2 center-align">
-									<h4 class="card-title grey-text text-darken-4">10+</h4>
-									<p class="medium-small grey-text">Years Experience</p>
-								</div>
-								<div class="col s4 m2 l2 center-align">
-									<h4 class="card-title grey-text text-darken-4">20</h4>
-									<p class="medium-small grey-text">Research Papers Published</p>
-								</div>
-								<div class="col s4 m2 l2 center-align">
-									<h4 class="card-title grey-text text-darken-4">150+</h4>
-									<p class="medium-small grey-text">Citations</p>
-								</div>
-							</div>
-						</div>
-					</div>
+          <!-- Section Resume -->
+          <div class="section experience scrollspy" id="experience-section">
+            <!-- Title -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="grey-text text-darken-2 left-align">Experience</h5>
+              </div>
+            </div>
 
-					<!-- Stats -->
-					<div class="stats">
-						<div class="row">
-							<div class="col s12 m6 l3">
-								<div class="card red darken-2">
-									<div class="card-content white-text center-align" style="height:14rem;">
-										<p class="card-title"><i class="material-icons">code</i><br><strong> Best Project Award</strong></p>
-										<p>IT Department
-										Project: Multi-Touch Detection System</p>
-									</div>
-								</div>
-							</div>
-							<div class="col s12 m6 l3">
-								<div class="card green darken-2">
-									<div class="card-content white-text center-align" style="height:14rem;">
-										<p class="card-title"><i class="material-icons">recent_actors</i><br><strong>Rank I</strong></p>
-										<p>M.Tech
-										Software Engineering
-									Suresh Gyan Vihar University Jaipur
-									I/II/III/IV Semester </p>
-									</div>
-								</div>
-							</div>
-							<div class="col s12 m6 l3">
-								<div class="card cyan darken-2">
-									<div class="card-content white-text center-align" style="height:14rem;">
-										<p class="card-title"><i class="material-icons">done_all</i><br><strong> Best Student</strong></p>
-										<p>Award
-										Bharat Vikas Parishad</p>
-									</div>
-								</div>
-							</div>
-							<div class="col s12 m6 l3">
-								<div class="card amber darken-2">
-									<div class="card-content white-text center-align" style="height:14rem;">
-										<p class="card-title"><i class="material-icons">supervisor_account</i><br><strong>55<sup>th</sup> Rank</strong></p>
-										<p>10th Standard
-										Rajasthan Board</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle red darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >July, 2019 - Present</span
+                    >
+                    <div class="title">
+                      Assistant Professor, Department of Computer Science and
+                      Engineering
+                    </div>
+                    <span class="tag red darken-2"
+                      >Mody University of Science & Technology,
+                      Lakshmangarh</span
+                    >
+                  </li>
+                  <li class="collection-item">
+                    <p>
+                      Involved in Active Teaching learning, Innovation in
+                      learning methodology
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle red darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >Nov. 2016 - June, 2019</span
+                    >
+                    <div class="title">
+                      Associate Professor, Head- Department of Information
+                      Technology
+                    </div>
+                    <span class="tag red darken-2">JECRC, Jaipur</span>
+                  </li>
+                  <li class="collection-item">
+                    <p>
+                      Involve in Research, Innovation in Active Teaching
+                      learning, Incubation
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle red darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >Nov. 2012 - Nov. 2016</span
+                    >
+                    <div class="title">Assistant Professor</div>
+                    <span class="tag red darken-2">JECRC, Jaipur</span>
+                  </li>
+                  <li class="collection-item">
+                    <p>
+                      Involve in study material development & research.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle red darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >Nov. 2009 - Nov. 2012</span
+                    >
+                    <div class="title">Lecturer</div>
+                    <span class="tag red darken-2">JECRC, Jaipur</span>
+                  </li>
+                  <li class="collection-item">
+                    <p>
+                      CSI-Student Branch Coordinator
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle red darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >July 2009 - Oct. 2009</span
+                    >
+                    <div class="title">Software Trainee</div>
+                    <span class="tag red darken-2"
+                      >RMG,Info Service,Gurgaon</span
+                    >
+                  </li>
+                  <li class="collection-item">
+                    <p>
+                      Developer (Asp.Net,C#)
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
-				</div>
+        <div class="container scrollspy" id="started-section">
+          <div class="section experience scrollspy" id="education-section">
+            <!-- Title -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="grey-text text-darken-2 left-align">Education</h5>
+              </div>
+            </div>
 
-				<!-- Section About -->
-				<div class="section about scrollspy" id="about-section">
+            <!-- Resume Items -->
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle green darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >2014-2018</span
+                    >
+                    <div class="title"><strong>Ph. D.</strong></div>
+                    <div class="title">
+                      School Of Engineering, JECRC University, Jaipur
+                    </div>
+                    <span class="tag red darken-2"
+                      >Computer Science and Engineering</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle green darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >2010-2012</span
+                    >
+                    <div class="title">
+                      <strong>M.Tech (Gold Medalist)</strong>
+                    </div>
+                    <div class="title">
+                      Suresh Gyan Vihar University, Jaipur
+                    </div>
+                    <span class="tag red darken-2">Software Engineering</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle green darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >2005-2009</span
+                    >
+                    <div class="title">B.E. (Honours)</div>
+                    <div class="title">University of Rajasthan , Jaipur</div>
+                    <span class="tag red darken-2">Information Technology</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle green darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >2005</span
+                    >
+                    <div class="title">XII</div>
+                    <div class="title">Board Of Sec. Education, Rajasthan</div>
+                    <span class="tag red darken-2">70.63% in PCM stream</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-resume z-depth-1">
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle green darken-2">school</i>
+                    <span class="ultra-small red-text darken-2 right"
+                      >2003</span
+                    >
+                    <div class="title">X</div>
+                    <div class="title">Board Of Sec. Education, Rajasthan</div>
+                    <span class="tag red darken-2"
+                      >85% in Rajasthan state board</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-					<!-- Title -->
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="grey-text text-darken-2 left-align">About Me</h5>
-						</div>
-					</div>
+          <!-- Service -->
+          <div class="section service scrollspy" id="service-section">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="left-align">Research Papers</h5>
+              </div>
+            </div>
 
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<div class="card-panel">
-								<div class="text-box">
-									<p>
-										An Energetic, dedicated person with good communication and leadership qualities to motivate people to
-achieve organizational objectives.
-									</p>
-									<p>
-										Full time assistant professor in the Department of Computer Science and Engineering, Mody University of Science &amp; Technology, Lakshmangarh, Dist. Sikar, Rajasthan – India, India, Affiliated to UGC and approved by AICTE, New Delhi.
-									</p>
-								</div>
-								<div class="bts">
-									<a href="Dr_Sunil_Jangir_Resume.pdf" class="btn waves-effect waves-light">Download CV</a>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-info z-depth-1">
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m5 l5 grey-text darken-1">
-											<i class="material-icons">perm_identity</i> Age:
-										</div>
-										<div class="col s6 m7 l7 grey-text text-darken-4 right-align">31 Years</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m5 l5 grey-text darken-1">
-											<i class="material-icons">work</i> Job:
-										</div>
-										<div class="col s6 m7 l7 grey-text text-darken-4 right-align">Assistant Professor</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m5 l5 grey-text darken-1">
-											<i class="material-icons">location_on</i> Citizenship:
-										</div>
-										<div class="col s6 m7 l7 grey-text text-darken-4 right-align">India</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m5 l5 grey-text darken-1">
-											<i class="material-icons">business</i> Address:
-										</div>
-										<div class="col s6 m7 l7 grey-text text-darken-4 right-align">Jaipur</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-info z-depth-1">
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s8 m5 l5 grey-text darken-1">
-											<i class="material-icons">invert_colors</i> Conferences:
-										</div>
-										<div class="col s4 m7 l7 grey-text text-darken-4 right-align">16</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s8 m5 l5 grey-text darken-1">
-											<i class="material-icons">language</i> International Journal:
-										</div>
-										<div class="col s4 m7 l7 grey-text text-darken-4 right-align">6</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s8 m5 l5 grey-text darken-1">
-											<i class="material-icons">stars</i>Training Programs:
-										</div>
-										<div class="col s4 m7 l7 grey-text text-darken-4 right-align">8</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s8 m5 l5 grey-text darken-1">
-											<i class="material-icons">album</i>Initiatives:
-										</div>
-										<div class="col s4 m7 l7 grey-text text-darken-4 right-align">4</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-skills z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle green darken-2">person</i>
-									<div class="title">Professional Skills</div>
-									<p></p>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Educational Technology</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress green lighten-5">
-												<div class="determinate green darken-2" style="width: 85%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Project Management</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress green lighten-5">
-												<div class="determinate green darken-2" style="width: 92%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Curiculum Development</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress green lighten-5">
-												<div class="determinate green darken-2" style="width: 82%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Professional Mentoring</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress green lighten-5">
-												<div class="determinate green darken-2" style="width: 95%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">C/C++</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress green lighten-5">
-												<div class="determinate green darken-2" style="width: 70%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-skills z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle red darken-2">forum</i>
-									<div class="title">Personal Skills</div>
-									<p></p>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Public Speaking</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress red lighten-5">
-												<div class="determinate red darken-2" style="width: 85%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Youth Mentoring</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress red lighten-5">
-												<div class="determinate red darken-2" style="width: 90%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Career Counselling</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress red lighten-5">
-												<div class="determinate red darken-2" style="width: 89%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Technical Leadership</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress red lighten-5">
-												<div class="determinate red darken-2" style="width: 92%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s6 m4 l4">
-											<div class="title">Motivational Speaking</div>
-										</div>
-										<div class="col s6 m8 l8">
-											<div class="progress red lighten-5">
-												<div class="determinate red darken-2" style="width: 95%"></div>
-											</div>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image green darken-2">
+                    <a
+                      href="https://link.springer.com/chapter/10.1007/978-981-10-7641-1_6"
+                    >
+                      <i class="material-icons circle darken-2"
+                        >library_books</i
+                      >
+                    </a>
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://link.springer.com/chapter/10.1007/978-981-10-7641-1_6"
+                        >
+                          Investigation of MANET Routing Protocols via
+                          Quantitative Metrics
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2019</p>
+                      <p><strong>Authors : </strong>SK Jangir, N Hemrajani</p>
+                      <p>
+                        <strong>Book : </strong>Data Science and Big Data
+                        Analytics, 67-79
+                      </p>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image cyan darken-2">
+                    <a
+                      href="https://link.springer.com/chapter/10.1007/978-981-10-8198-9_68"
+                      ><i class="material-icons circle darken-2"
+                        >library_books</i
+                      ></a
+                    >
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://link.springer.com/chapter/10.1007/978-981-10-8198-9_68"
+                          >A Detection Technique for Overhead Minimization in
+                          Tunneling Attack</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2018</p>
+                      <p><strong>Authors : </strong>SK Jangir, N Hemrajani</p>
+                      <p>
+                        <strong>Book : </strong>Proceedings of International
+                        Conference on Recent Advancement on Computer and
+                        Communication, 655-664
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-				</div>
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image cyan darken-2">
+                    <a
+                      href="https://search.proquest.com/openview/4c6d8589e03e2816cd03c006073a0135/1?pq-origsite=gscholar&cbl=1606379"
+                    >
+                      <i class="material-icons circle darken-2"
+                        >library_books</i
+                      >
+                    </a>
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://search.proquest.com/openview/4c6d8589e03e2816cd03c006073a0135/1?pq-origsite=gscholar&cbl=1606379"
+                        >
+                          COLLUSION BW HOLE ATTACK
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2017</p>
+                      <p><strong>Authors : </strong>SK Jangir, N Hemrajani</p>
+                      <p>
+                        <strong>Journal : </strong>International Journal of
+                        Advanced Research in Computer Science 8(9)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image green darken-2">
+                    <a
+                      href="https://www.researchgate.net/profile/Sunil_Jangir2/publication/321388349_A_Comprehensive_Review_and_Performance_Evaluation_of_Detection_Techniques_of_Black_Hole_Attack_in_MANET/links/5b2b2e7a0f7e9b1d00a01053/A-Comprehensive-Review-and-Performance-Evaluation-of-Detection-Techniques-of-Black-Hole-Attack-in-MANET.pdf"
+                      ><i class="material-icons circle darken-2"
+                        >library_books</i
+                      ></a
+                    >
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://www.researchgate.net/profile/Sunil_Jangir2/publication/321388349_A_Comprehensive_Review_and_Performance_Evaluation_of_Detection_Techniques_of_Black_Hole_Attack_in_MANET/links/5b2b2e7a0f7e9b1d00a01053/A-Comprehensive-Review-and-Performance-Evaluation-of-Detection-Techniques-of-Black-Hole-Attack-in-MANET.pdf"
+                          >A Comprehensive Review and Performance Evaluation of
+                          Detection Techniques of Black Hole Attack in MANET</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2017</p>
+                      <p><strong>Authors : </strong>SK Jangir, N Hemrajani</p>
+                      <p>
+                        <strong>Journal : </strong>Journal of Computer Science
+                        13(10)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-				<!-- Section Resume -->
-				<div class="section experience scrollspy" id="experience-section">
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image green darken-2">
+                    <a
+                      href="https://ieeexplore.ieee.org/abstract/document/7892688"
+                    >
+                      <i class="material-icons circle darken-2"
+                        >library_books</i
+                      >
+                    </a>
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://ieeexplore.ieee.org/abstract/document/7892688"
+                        >
+                          A comprehensive review on detection of wormhole attack
+                          in MANET
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2016</p>
+                      <p><strong>Authors : </strong>SK Jangir, N Hemrajani</p>
+                      <p>
+                        <strong>Conference : </strong>2016 International
+                        Conference on ICT in Business Industry & Government
+                        (ICTBIG)
+                      </p>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image cyan darken-2">
+                    <a href="https://dl.acm.org/citation.cfm?id=2905133"
+                      ><i class="material-icons circle darken-2"
+                        >library_books</i
+                      ></a
+                    >
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a href="https://dl.acm.org/citation.cfm?id=2905133"
+                          >Evaluation of black hole, wormhole and sybil attacks
+                          in mobile ad-hoc networks</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2016</p>
+                      <p>
+                        <strong>Authors : </strong>Sunil Kumar Jangir, N
+                        Hemrajani
+                      </p>
+                      <p>
+                        <strong>Conference : </strong>Proceedings of the second
+                        international conference on information and
+                        communication technology for competitive strategies
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-					<!-- Title -->
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="grey-text text-darken-2 left-align">Experience</h5>
-						</div>
-					</div>
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image cyan darken-2">
+                    <a
+                      href="https://s3.amazonaws.com/academia.edu.documents/36621093/Manage_Big_Data_through_NewSQL.pdf?response-content-disposition=inline%3B%20filename%3DManage_Big_Data_through_NewSQL.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T191749Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f558064a9ad1c940f0210b1851afd221be28b8b6b517b710fce18633b591756e"
+                    >
+                      <i class="material-icons circle darken-2"
+                        >library_books</i
+                      >
+                    </a>
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://s3.amazonaws.com/academia.edu.documents/36621093/Manage_Big_Data_through_NewSQL.pdf?response-content-disposition=inline%3B%20filename%3DManage_Big_Data_through_NewSQL.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T191749Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f558064a9ad1c940f0210b1851afd221be28b8b6b517b710fce18633b591756e"
+                        >
+                          Manage big data through newsql
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2014</p>
+                      <p>
+                        <strong>Authors : </strong>Rakesh Kumar, Neha Gupta,
+                        Shilpi Charu, Sunil Kumar Jangir
+                      </p>
+                      <p>
+                        <strong>Journal : </strong>National Conference on
+                        Innovation in Wireless Communication and Networking
+                        Technology–2014, Association with THE INSTITUTION OF
+                        ENGINEERS (INDIA)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image green darken-2">
+                    <a
+                      href="https://www.researchgate.net/profile/Rakesh_Kumar175/publication/263581733_Open_Source_Solution_for_Cloud_Computing_Platform_Using_OpenStack/links/0c96053b4be8a8d6f1000000/Open-Source-Solution-for-Cloud-Computing-Platform-Using-OpenStack.pdf"
+                      ><i class="material-icons circle darken-2"
+                        >library_books</i
+                      ></a
+                    >
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://www.researchgate.net/profile/Rakesh_Kumar175/publication/263581733_Open_Source_Solution_for_Cloud_Computing_Platform_Using_OpenStack/links/0c96053b4be8a8d6f1000000/Open-Source-Solution-for-Cloud-Computing-Platform-Using-OpenStack.pdf"
+                          >A Open source solution for cloud computing platform
+                          using OpenStack</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2014</p>
+                      <p>
+                        <strong>Authors : </strong>Rakesh Kumar, Neha Gupta,
+                        Shilpi Charu, Kanishk Jain, Sunil Kumar Jangir
+                      </p>
+                      <p>
+                        <strong>Journal : </strong>International Journal of
+                        Computer Science and Mobile Computing 3(5)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-					
-					<div class="row">
-							<div class="col s12 m12 l6">
-									<ul class="collection collection-resume z-depth-1">
-										<li class="collection-item avatar">
-											<i class="material-icons circle red darken-2">school</i>
-											<span class="ultra-small red-text darken-2 right">July, 2019 - Present</span>
-											<div class="title">Assistant Professor, Department of Computer Science and Engineering</div>
-											<span class="tag red darken-2">Mody University of Science & Technology, Lakshmangarh</span>
-										</li>
-										<li class="collection-item">
-											<p>
-												Involved in Active Teaching learning, Innovation in learning methodology
-											</p>
-										</li>
-									</ul>
-								</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-resume z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle red darken-2">school</i>
-									<span class="ultra-small red-text darken-2 right">Nov. 2016 - June, 2019</span>
-									<div class="title">Associate Professor,
-Head- Department
-of Information
-Technology</div>
-									<span class="tag red darken-2">JECRC, Jaipur</span>
-								</li>
-								<li class="collection-item">
-									<p>
-										Involve in Research,
-Innovation in Active Teaching
-learning, Incubation
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-resume z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle red darken-2">school</i>
-									<span class="ultra-small red-text darken-2 right">Nov. 2012 - Nov. 2016</span>
-									<div class="title">Assistant Professor</div>
-									<span class="tag red darken-2">JECRC, Jaipur</span>
-								</li>
-								<li class="collection-item">
-									<p>
-										Involve in study material
-development & research.
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-								<ul class="collection collection-resume z-depth-1">
-									<li class="collection-item avatar">
-										<i class="material-icons circle red darken-2">school</i>
-										<span class="ultra-small red-text darken-2 right">Nov. 2009 - Nov. 2012</span>
-										<div class="title">Lecturer</div>
-										<span class="tag red darken-2">JECRC, Jaipur</span>
-									</li>
-									<li class="collection-item">
-										<p>
-											CSI-Student Branch Coordinator
-										</p>
-									</li>
-								</ul>
-							</div>
-							<div class="col s12 m12 l6">
-								<ul class="collection collection-resume z-depth-1">
-									<li class="collection-item avatar">
-										<i class="material-icons circle red darken-2">school</i>
-										<span class="ultra-small red-text darken-2 right">July 2009 - Oct. 2009</span>
-										<div class="title">Software Trainee</div>
-										<span class="tag red darken-2">RMG,Info Service,Gurgaon</span>
-									</li>
-									<li class="collection-item">
-										<p>
-											Developer (Asp.Net,C#)
-										</p>
-									</li>
-								</ul>
-							</div>
-					</div>
-				</div>
-				</div>
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image green darken-2">
+                    <a href="http://www.aijet.in/v1/1411007.pdf">
+                      <i class="material-icons circle darken-2"
+                        >library_books</i
+                      >
+                    </a>
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a href="http://www.aijet.in/v1/1411007.pdf">
+                          A comparative study for cloud computing platform on
+                          open source software
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2014</p>
+                      <p>
+                        <strong>Authors : </strong>Siddharth Jain, Rakesh Kumar,
+                        Sunil Kumar Jangir Anamika
+                      </p>
+                      <p>
+                        <strong>Journal : </strong>ABHIYANTRIKI: An
+                        International Journal of Engineering & Technology
+                        (AIJET) 1(2)
+                      </p>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m12 l6">
+                <div class="card horizontal">
+                  <div class="card-image cyan darken-2">
+                    <a
+                      href="https://s3.amazonaws.com/academia.edu.documents/35726935/An_analysis_of_security_and_privacy_issues__Challenges_with_possible_solution_in_cloud_computing.pdf?response-content-disposition=inline%3B%20filename%3DAn_analysis_of_security_and_privacy_issu.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T192401Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f26b6a8da1f9c18b7fe81cfc104bb545594aa11817aecd1c41b487c7c155d02f"
+                      ><i class="material-icons circle darken-2"
+                        >library_books</i
+                      ></a
+                    >
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <div class="title">
+                        <a
+                          href="https://s3.amazonaws.com/academia.edu.documents/35726935/An_analysis_of_security_and_privacy_issues__Challenges_with_possible_solution_in_cloud_computing.pdf?response-content-disposition=inline%3B%20filename%3DAn_analysis_of_security_and_privacy_issu.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T192401Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f26b6a8da1f9c18b7fe81cfc104bb545594aa11817aecd1c41b487c7c155d02f"
+                          >An analysis of security and privacy issues,
+                          Challenges with possible solution in cloud
+                          computing</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-action">
+                      <p><strong>Year : </strong> 2014</p>
+                      <p>
+                        <strong>Authors : </strong>Siddharth Jain, Rakesh Kumar,
+                        Sourabh Kumawat, Sunil Kumar Jangir
+                      </p>
+                      <p>
+                        <strong>Journal : </strong>National Conference on
+                        Computational and Mathematical Sciences (COMPUTATIA-IV),
+                        Technically Sponsored By: ISITA and RAOPS, Jaipur
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-				<div class="container scrollspy" id="started-section">
-				<div class="section experience scrollspy" id="education-section">
+            <div class="center-align">
+              <a
+                href="https://scholar.google.co.in/citations?hl=en&user=EqxgTpQAAAAJ&view_op=list_works&sortby=pubdate"
+                class="btn waves-effect waves-light"
+                >View All</a
+              >
+            </div>
+          </div>
 
-					<!-- Title -->
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="grey-text text-darken-2 left-align">Education</h5>
-						</div>
-					</div>
+          <!-- Portfolio -->
+          <div class="section works scrollspy" id="works-section">
+            <!-- Title -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="grey-text text-darken-2 left-align">Portfolio</h5>
+              </div>
+            </div>
 
-			
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <ul class="tabs filter z-depth-1">
+                  <li class="tab">
+                    <a class="active" data-filter=".all">All</a>
+                  </li>
+                  <li class="tab"><a data-filter=".workshop">Workshops</a></li>
+                  <li class="tab">
+                    <a data-filter=".hackathon">Hackathons</a>
+                  </li>
+                  <li class="tab">
+                    <a data-filter=".conference">Conferences</a>
+                  </li>
+                  <li class="tab">
+                    <a data-filter=".ct">Cultural/Technical</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-				<!-- Resume Items -->
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-resume z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle green darken-2">school</i>
-									<span class="ultra-small red-text darken-2 right">2014-2018</span>
-									<div class="title"><strong>Ph. D.</strong></div>
-									<div class="title">School Of Engineering, JECRC University, Jaipur</div>
-									<span class="tag red darken-2">Computer Science and Engineering</span>
-								</li>
-								
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-resume z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle green darken-2">school</i>
-									<span class="ultra-small red-text darken-2 right">2010-2012</span>
-									<div class="title"><strong>M.Tech (Gold Medalist)</strong></div>
-									<div class="title">Suresh Gyan Vihar University, Jaipur</div>
-									<span class="tag red darken-2">Software Engineering</span>
-								</li>
-								
-							</ul>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-resume z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle green darken-2">school</i>
-									<span class="ultra-small red-text darken-2 right">2005-2009</span>
-									<div class="title">B.E. (Honours)</div>
-									<div class="title">University of Rajasthan , Jaipur</div>
-									<span class="tag red darken-2">Information Technology</span>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-resume z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle green darken-2">school</i>
-									<span class="ultra-small red-text darken-2 right">2005</span>
-									<div class="title">XII</div>
-									<div class="title">Board Of Sec. Education, Rajasthan</div>
-									<span class="tag red darken-2">70.63% in PCM stream</span>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-resume z-depth-1">
-								<li class="collection-item avatar">
-									<i class="material-icons circle green darken-2">school</i>
-									<span class="ultra-small red-text darken-2 right">2003</span>
-									<div class="title">X</div>
-									<div class="title">Board Of Sec. Education, Rajasthan</div>
-									<span class="tag red darken-2">85% in Rajasthan state board</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+            <div class="row">
+              <div class="col s12 m6 l4">
+                <div class="card work-item conference all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-11" class="activator"
+                      ><img src="images/conference/c4.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-11" class="activator">
+                        <span>
+                          Session Chair, ICTCS-2019, Bhupal Nobels' University,
+                          Udaipur, India
+                        </span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Conference</span
+                    >
+                  </div>
+                  <div id="popup-11" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/conference/c4.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Conference</div>
+                        <h4>
+                          Session Chair, ICTCS-2019, Bhupal Nobels' University,
+                          Udaipur, India
+                        </h4>
+                        <p>
+                          The 4<sup>th</sup> International Conference on
+                          Information and Communication Technology for
+                          Competitive Strategies (ICTCS-2019) organized by the
+                          BHUPAL NOBLES' UNIVERSITY, UDAIPUR, India , held on
+                          December 13<sup>th</sup>-14<sup>th</sup>, 2019
+                          provided a platform to learn about new and emerging
+                          technologies. Dr. Sunil Kumar Jangir, Assistant
+                          Professor, Department of Computer Science and
+                          Engineering, Mody University of Science and
+                          Technology, Lakshmangarh was invited as a part of this
+                          conference as the member of the session chair for the
+                          evaluation of the research papers that foreground the
+                          usage of information systems, distributed AI,
+                          intelligent agents, and collaborative work, to explore
+                          and discuss various aspects of design and development
+                          of intelligent technologies. The conference was
+                          devoted to increase the understanding role of
+                          Information and Communication Technology, how
+                          Intelligent Systems has day by day evolved. The
+                          conference gave a platform for bringing forth
+                          significant research and literature across the field
+                          of Information and Communication Technology for
+                          Intelligent Systems and provide an overview of the
+                          technologies waiting unveiling.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item conference all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-10" class="activator"
+                      ><img src="images/conference/c4.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-10" class="activator">
+                        <span
+                          >Session Chair, ICIMMI-2019, Poornima Institute of
+                          Engineering & Technology, Jaipur</span
+                        >
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Conference</span
+                    >
+                  </div>
+                  <div id="popup-10" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/conference/c4.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Conference</div>
+                        <h4>
+                          Session Chair, ICIMMI-2019, Poornima Institute of
+                          Engineering & Technology, Jaipur
+                        </h4>
+                        <p>
+                          An International Conference of Information Management
+                          (ICIMMI-2019) under the scheme TEQIP-III (RTU-ATU)
+                          organized by Poornima Institute of Engineering &
+                          Technology, Jaipur on 14-15, December 2019. This
+                          conference turned out to be a great platform to
+                          provide opportunities for Researchers, Academicians,
+                          Industry persons and students to express and
+                          communicate data, skill and proficiency in the recent
+                          development and strategies in respect to the
+                          Information Management & Machine learning. Dr. Sunil
+                          Kumar Jangir, Assistant Professor, Department of
+                          Computer Science and Engineering, Mody University of
+                          Science and Technology, Lakshmangarh was one of the
+                          prominent members of the session chair and showcased
+                          his skills in the arena of the new emerging
+                          technologies.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item conference all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-9" class="activator"
+                      ><img src="images/conference/c5.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-9" class="activator">
+                        <span
+                          >Session Chair, ICRTEAS, IIS (deemed to be
+                          University), Jaipur (INDIA)</span
+                        >
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Conference</span
+                    >
+                  </div>
+                  <div id="popup-9" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/conference/c5.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">conference</div>
+                        <h4>
+                          Session Chair, ICRTEAS, IIS (deemed to be University),
+                          Jaipur (INDIA)
+                        </h4>
+                        <p>
+                          The 1<sup>st</sup> FICR International Conference of
+                          Rising Threats in Expert Applications & Solutions,
+                          2020 organized by the Department of Computer Science &
+                          Information Technology at IIS (deemed to be
+                          University), Jaipur (INDIA), held on January
+                          17<sup>th</sup>-19<sup>th</sup>, 2020 gave me an
+                          immense pleasure to attend the conference as a member
+                          of the session chair and empower my knowledge in the
+                          fields of Machine Learning and Real-Time applications
+                          of Deep Learning. Dr, Vijay Singh Rathore encouraged
+                          Dr. Sunil Kumar Jangir, Assistant Professor,
+                          Department of Computer Science and Engineering, Mody
+                          University of Science and Technology, Lakshmangarh to
+                          be a part of such an informative conference and attend
+                          the session chair with all the expertise. The
+                          conference also welcomed Prof. E. Balagurusamy, former
+                          Vice-Chancellor, Anna University, Chennai, Prof.
+                          Venugopal K. R., Vice- Chancellor, Society Bangalore
+                          University, Bangaluru, prof. Milan Tuba, Singidunum
+                          University, Belgrade, Serbia, Prof. Mike Hinchey,
+                          University of limerick, Ireland, and Dr. Niko
+                          Phillips, Director- International, Education Activate
+                          learning, City of Oxford College, the UK to enhance
+                          the participants with the knowledge of the developing
+                          modern technologies.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item workshop all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-1" class="activator"
+                      ><img src="images/workshop/w1.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-1" class="activator">
+                        <span>RPA workshop for Educators</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Workshop</span
+                    >
+                  </div>
+                  <div id="popup-1" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/workshop/w1.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Workshop</div>
+                        <h4>RPA workshop for Educators</h4>
+                        <a
+                          href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10215272649342760&type=3"
+                          class="btn waves-effect waves-light"
+                          target="_Blank"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item workshop all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-2" class="activator"
+                      ><img src="images/workshop/w2.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-2" class="activator">
+                        <span>ACM student chapter</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Workshop</span
+                    >
+                  </div>
+                  <div id="popup-2" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/workshop/w2.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Workshop</div>
+                        <h4>ACM student chapter</h4>
+                        <a
+                          href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10214910584451364&type=3"
+                          class="btn waves-effect waves-light"
+                          target="_blank"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item hackathon all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-3" class="activator"
+                      ><img src="images/hackathon/h1.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-3" class="activator">
+                        <span>Voyage of JECRC HACKATHON 1.0</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Hacakthon</span
+                    >
+                  </div>
+                  <div id="popup-3" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/hackathon/h1.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Hackathon</div>
+                        <h4>Voyage of JECRC HACKATHON 1.0</h4>
+                        <a
+                          href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212059237449471&type=3"
+                          class="btn waves-effect waves-light"
+                          target="_blank"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item hackathon all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-4" class="activator"
+                      ><img src="images/hackathon/h2.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-4" class="activator">
+                        <span>JECRC-IT-HACKATHON 2017</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Hackathon</span
+                    >
+                  </div>
+                  <div id="popup-4" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/hackathon/h2.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Hackathon</div>
+                        <h4>JECRC-IT-HACKATHON 2017</h4>
+                        <a
+                          href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212130742797060&type=3"
+                          class="btn waves-effect waves-light"
+                          target="_blank"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item conference all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-5" class="activator"
+                      ><img src="images/conference/c1.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-5" class="activator">
+                        <span>ICITDA 2018</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Conference</span
+                    >
+                  </div>
+                  <div id="popup-5" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/conference/c1.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Conference</div>
+                        <h4>ICITDA 2018</h4>
+                        <a
+                          href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212663855724550&type=3"
+                          class="btn waves-effect waves-light"
+                          target="_blank"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item conference all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-6" class="activator"
+                      ><img src="images/conference/c2.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-6" class="activator">
+                        <span>ICITDA 2019</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Conference</span
+                    >
+                  </div>
+                  <div id="popup-6" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/conference/c2.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Conference</div>
+                        <h4>ICITDA 2019</h4>
+                        <a
+                          href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10215047847042843&type=3"
+                          class="btn waves-effect waves-light"
+                          target="_blank"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item ct all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-6" class="activator"
+                      ><img src="images/event/e1.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-7" class="activator">
+                        <span>Renaissance'18 of JECRC Foundation</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Cultural Event</span
+                    >
+                  </div>
+                  <div id="popup-7" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/event/e1.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Cultural Event</div>
+                        <h4>Renaissance'18 of JECRC Foundation</h4>
+                        <a
+                          href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212624692945505&type=3"
+                          class="btn waves-effect waves-light"
+                          target="_blank"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card work-item ct all">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <a href="#popup-8" class="activator"
+                      ><img src="images/event/e2.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="card-title grey-text text-darken-4">
+                      <a href="#popup-8" class="activator">
+                        <span>Renaissance'18 of JECRC Foundation</span>
+                        <i class="material-icons right">more_vert</i>
+                      </a>
+                    </h3>
+                    <span class="category blue-text text-darken-2"
+                      >Technical Event</span
+                    >
+                  </div>
+                  <div id="popup-8" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="image">
+                        <img src="images/event/e2.jpg" alt="" />
+                      </div>
+                      <div class="desc">
+                        <div class="category">Technical Event</div>
+                        <h4>Renaissance'18 of JECRC Foundation</h4>
+                        <a href="#" class="btn waves-effect waves-light"
+                          >Know More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- Section Pricing -->
+          <div class="section pricing scrollspy" id="pricing-section">
+            <!-- Title -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="grey-text text-darken-2 left-align">Refrences</h5>
+              </div>
+            </div>
 
-				<!-- Service -->
-				<div class="section service scrollspy" id="service-section">
-					
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="left-align">Research Papers</h5>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image green darken-2">
-									<a href="https://link.springer.com/chapter/10.1007/978-981-10-7641-1_6">
-									    <i class="material-icons circle darken-2">library_books</i>
-									</a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://link.springer.com/chapter/10.1007/978-981-10-7641-1_6">
-										    Investigation of MANET Routing Protocols via Quantitative Metrics
-										</a></div>
-									</div>
-									<div class="card-action">
-									    <p><strong>Year : </strong> 2019</p>
-										<p><strong>Authors : </strong>SK Jangir, N Hemrajani </p>
-										<p> <strong>Book : </strong>Data Science and Big Data Analytics, 67-79</p> <br>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image cyan darken-2">
-									<a href="https://link.springer.com/chapter/10.1007/978-981-10-8198-9_68"><i class="material-icons circle darken-2">library_books</i></a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://link.springer.com/chapter/10.1007/978-981-10-8198-9_68">A Detection Technique for Overhead Minimization in Tunneling Attack</a></div>
-									</div>
-									<div class="card-action">
-										<p><strong>Year : </strong> 2018</p>
-										<p><strong>Authors : </strong>SK Jangir, N Hemrajani </p>
-										<p> <strong>Book : </strong>Proceedings of International Conference on Recent Advancement on Computer and Communication, 655-664</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image cyan darken-2">
-									<a href="https://search.proquest.com/openview/4c6d8589e03e2816cd03c006073a0135/1?pq-origsite=gscholar&cbl=1606379">
-									    <i class="material-icons circle darken-2">library_books</i>
-									</a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://search.proquest.com/openview/4c6d8589e03e2816cd03c006073a0135/1?pq-origsite=gscholar&cbl=1606379">
-										    COLLUSION BW HOLE ATTACK
-										</a></div>
-									</div>
-									<div class="card-action">
-									    <p><strong>Year : </strong> 2017</p>
-										<p><strong>Authors : </strong>SK Jangir, N Hemrajani </p>
-										<p> <strong>Journal : </strong>International Journal of Advanced Research in Computer Science 8(9)</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image green darken-2">
-									<a href="https://www.researchgate.net/profile/Sunil_Jangir2/publication/321388349_A_Comprehensive_Review_and_Performance_Evaluation_of_Detection_Techniques_of_Black_Hole_Attack_in_MANET/links/5b2b2e7a0f7e9b1d00a01053/A-Comprehensive-Review-and-Performance-Evaluation-of-Detection-Techniques-of-Black-Hole-Attack-in-MANET.pdf"><i class="material-icons circle darken-2">library_books</i></a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://www.researchgate.net/profile/Sunil_Jangir2/publication/321388349_A_Comprehensive_Review_and_Performance_Evaluation_of_Detection_Techniques_of_Black_Hole_Attack_in_MANET/links/5b2b2e7a0f7e9b1d00a01053/A-Comprehensive-Review-and-Performance-Evaluation-of-Detection-Techniques-of-Black-Hole-Attack-in-MANET.pdf">A Comprehensive Review and Performance Evaluation of Detection Techniques of Black Hole Attack in MANET</a></div>
-									</div>
-									<div class="card-action">
-										<p><strong>Year : </strong> 2017</p>
-										<p><strong>Authors : </strong>SK Jangir, N Hemrajani </p>
-										<p> <strong>Journal : </strong>Journal of Computer Science 13(10)</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image green darken-2">
-									<a href="https://ieeexplore.ieee.org/abstract/document/7892688">
-									    <i class="material-icons circle darken-2">library_books</i>
-									</a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/7892688">
-										    A comprehensive review on detection of wormhole attack in MANET
-										</a></div>
-									</div>
-									<div class="card-action">
-									    <p><strong>Year : </strong> 2016</p>
-										<p><strong>Authors : </strong>SK Jangir, N Hemrajani </p>
-										<p> <strong>Conference : </strong>2016 International Conference on ICT in Business Industry & Government (ICTBIG)</p> <br>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image cyan darken-2">
-									<a href="https://dl.acm.org/citation.cfm?id=2905133"><i class="material-icons circle darken-2">library_books</i></a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://dl.acm.org/citation.cfm?id=2905133">Evaluation of black hole, wormhole and sybil attacks in mobile ad-hoc networks</a></div>
-									</div>
-									<div class="card-action">
-										<p><strong>Year : </strong> 2016</p>
-										<p><strong>Authors : </strong>Sunil Kumar Jangir, N Hemrajani </p>
-										<p> <strong>Conference : </strong>Proceedings of the second international conference on information and communication technology for competitive strategies</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image cyan darken-2">
-									<a href="https://s3.amazonaws.com/academia.edu.documents/36621093/Manage_Big_Data_through_NewSQL.pdf?response-content-disposition=inline%3B%20filename%3DManage_Big_Data_through_NewSQL.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T191749Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f558064a9ad1c940f0210b1851afd221be28b8b6b517b710fce18633b591756e">
-									    <i class="material-icons circle darken-2">library_books</i>
-									</a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://s3.amazonaws.com/academia.edu.documents/36621093/Manage_Big_Data_through_NewSQL.pdf?response-content-disposition=inline%3B%20filename%3DManage_Big_Data_through_NewSQL.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T191749Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f558064a9ad1c940f0210b1851afd221be28b8b6b517b710fce18633b591756e">
-										    Manage big data through newsql
-										</a></div>
-									</div>
-									<div class="card-action">
-									    <p><strong>Year : </strong> 2014</p>
-										<p><strong>Authors : </strong>Rakesh Kumar, Neha Gupta, Shilpi Charu, Sunil Kumar Jangir </p>
-										<p> <strong>Journal : </strong>National Conference on Innovation in Wireless Communication and Networking Technology–2014, Association with THE INSTITUTION OF ENGINEERS (INDIA)</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image green darken-2">
-									<a href="https://www.researchgate.net/profile/Rakesh_Kumar175/publication/263581733_Open_Source_Solution_for_Cloud_Computing_Platform_Using_OpenStack/links/0c96053b4be8a8d6f1000000/Open-Source-Solution-for-Cloud-Computing-Platform-Using-OpenStack.pdf"><i class="material-icons circle darken-2">library_books</i></a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://www.researchgate.net/profile/Rakesh_Kumar175/publication/263581733_Open_Source_Solution_for_Cloud_Computing_Platform_Using_OpenStack/links/0c96053b4be8a8d6f1000000/Open-Source-Solution-for-Cloud-Computing-Platform-Using-OpenStack.pdf">A Open source solution for cloud computing platform using OpenStack</a></div>
-									</div>
-									<div class="card-action">
-										<p><strong>Year : </strong> 2014</p>
-										<p><strong>Authors : </strong>Rakesh Kumar, Neha Gupta, Shilpi Charu, Kanishk Jain, Sunil Kumar Jangir</p>
-										<p> <strong>Journal : </strong>International Journal of Computer Science and Mobile Computing 3(5)</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image green darken-2">
-									<a href="http://www.aijet.in/v1/1411007.pdf">
-									    <i class="material-icons circle darken-2">library_books</i>
-									</a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="http://www.aijet.in/v1/1411007.pdf">
-										    A comparative study for cloud computing platform on open source software
-										</a></div>
-									</div>
-									<div class="card-action">
-									    <p><strong>Year : </strong> 2014</p>
-										<p><strong>Authors : </strong>Siddharth Jain, Rakesh Kumar, Sunil Kumar Jangir Anamika </p>
-										<p> <strong>Journal : </strong>ABHIYANTRIKI: An International Journal of Engineering & Technology (AIJET) 1(2)</p> <br>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m12 l6">
-							<div class="card horizontal">
-								<div class="card-image cyan darken-2">
-									<a href="https://s3.amazonaws.com/academia.edu.documents/35726935/An_analysis_of_security_and_privacy_issues__Challenges_with_possible_solution_in_cloud_computing.pdf?response-content-disposition=inline%3B%20filename%3DAn_analysis_of_security_and_privacy_issu.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T192401Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f26b6a8da1f9c18b7fe81cfc104bb545594aa11817aecd1c41b487c7c155d02f"><i class="material-icons circle darken-2">library_books</i></a>
-								</div>
-								<div class="card-stacked">
-									<div class="card-content">
-										<div class="title"><a href="https://s3.amazonaws.com/academia.edu.documents/35726935/An_analysis_of_security_and_privacy_issues__Challenges_with_possible_solution_in_cloud_computing.pdf?response-content-disposition=inline%3B%20filename%3DAn_analysis_of_security_and_privacy_issu.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190620%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190620T192401Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f26b6a8da1f9c18b7fe81cfc104bb545594aa11817aecd1c41b487c7c155d02f">An analysis of security and privacy issues, Challenges with possible solution in cloud computing</a></div>
-									</div>
-									<div class="card-action">
-										<p><strong>Year : </strong> 2014</p>
-										<p><strong>Authors : </strong>Siddharth Jain, Rakesh Kumar, Sourabh Kumawat, Sunil Kumar Jangir</p>
-										<p> <strong>Journal : </strong>National Conference on Computational and Mathematical Sciences (COMPUTATIA-IV), Technically Sponsored By: ISITA and RAOPS, Jaipur</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="center-align">
-						<a href="https://scholar.google.co.in/citations?hl=en&user=EqxgTpQAAAAJ&view_op=list_works&sortby=pubdate" class="btn waves-effect waves-light">View All</a>
-					</div>
-					
-				</div>
-
-				<!-- Portfolio -->
-				<div class="section works scrollspy" id="works-section">
-
-					<!-- Title -->
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="grey-text text-darken-2 left-align">Portfolio</h5>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<ul class="tabs filter z-depth-1">
-								<li class="tab"><a class="active" data-filter=".all">All</a></li>
-								<li class="tab"><a data-filter=".workshop">Workshops</a></li>
-								<li class="tab"><a data-filter=".hackathon">Hackathons</a></li>
-								<li class="tab"><a data-filter=".conference">Conferences</a></li>
-								<li class="tab"><a data-filter=".ct">Cultural/Technical</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col s12 m6 l4">
-							<div class="card work-item workshop all">
-								<div class="card-image waves-effect waves-block waves-light">
-									<a href="#popup-1" class="activator"><img src="images/workshop/w1.jpg" alt="" /></a>
-								</div>
-								<div class="card-content">
-									<h3 class="card-title grey-text text-darken-4">
-										<a href="#popup-1" class="activator">
-											<span>RPA workshop for Educators</span>
-											<i class="material-icons right">more_vert</i>
-										</a>
-									</h3>
-									<span class="category blue-text text-darken-2">Workshop</span>
-								</div>
-								<div id="popup-1" class="popup-box mfp-fade mfp-hide">
-									<div class="content">
-										<div class="image">
-											<img src="images/workshop/w1.jpg" alt="">
-										</div>
-										<div class="desc">
-											<div class="category">Workshop</div>
-											<h4>RPA workshop for Educators</h4>
-											<a href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10215272649342760&type=3" class="btn waves-effect waves-light" target="_Blank">Know More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card work-item workshop all">
-								<div class="card-image waves-effect waves-block waves-light">
-									<a href="#popup-2" class="activator"><img src="images/workshop/w2.jpg" alt="" /></a>
-								</div>
-								<div class="card-content">
-									<h3 class="card-title grey-text text-darken-4">
-										<a href="#popup-2" class="activator">
-											<span>ACM student chapter</span>
-											<i class="material-icons right">more_vert</i>
-										</a>
-									</h3>
-									<span class="category blue-text text-darken-2">Workshop</span>
-								</div>
-								<div id="popup-2" class="popup-box mfp-fade mfp-hide">
-									<div class="content">
-										<div class="image">
-											<img src="images/workshop/w2.jpg" alt="">
-										</div>
-										<div class="desc">
-											<div class="category">Workshop</div>
-											<h4>ACM student chapter</h4>
-											<a href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10214910584451364&type=3" class="btn waves-effect waves-light" target="_blank">Know More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card work-item hackathon all">
-								<div class="card-image waves-effect waves-block waves-light">
-									<a href="#popup-3" class="activator"><img src="images/hackathon/h1.jpg" alt="" /></a>
-								</div>
-								<div class="card-content">
-									<h3 class="card-title grey-text text-darken-4">
-										<a href="#popup-3" class="activator">
-											<span>Voyage of JECRC HACKATHON 1.0</span>
-											<i class="material-icons right">more_vert</i>
-										</a>
-									</h3>
-									<span class="category blue-text text-darken-2">Hacakthon</span>
-								</div>
-								<div id="popup-3" class="popup-box mfp-fade mfp-hide">
-									<div class="content">
-										<div class="image">
-											<img src="images/hackathon/h1.jpg" alt="">
-										</div>
-										<div class="desc">
-											<div class="category">Hackathon</div>
-											<h4>Voyage of JECRC HACKATHON 1.0</h4>
-											<a href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212059237449471&type=3" class="btn waves-effect waves-light" target="_blank">Know More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card work-item hackathon all">
-								<div class="card-image waves-effect waves-block waves-light">
-									<a href="#popup-4" class="activator"><img src="images/hackathon/h2.jpg" alt="" /></a>
-								</div>
-								<div class="card-content">
-									<h3 class="card-title grey-text text-darken-4">
-										<a href="#popup-4" class="activator">
-											<span>JECRC-IT-HACKATHON 2017</span>
-											<i class="material-icons right">more_vert</i>
-										</a>
-									</h3>
-									<span class="category blue-text text-darken-2">Hackathon</span>
-								</div>
-								<div id="popup-4" class="popup-box mfp-fade mfp-hide">
-									<div class="content">
-										<div class="image">
-											<img src="images/hackathon/h2.jpg" alt="">
-										</div>
-										<div class="desc">
-											<div class="category">Hackathon</div>
-											<h4>JECRC-IT-HACKATHON 2017</h4>
-											<a href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212130742797060&type=3" class="btn waves-effect waves-light" target="_blank">Know More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card work-item conference all">
-								<div class="card-image waves-effect waves-block waves-light">
-									<a href="#popup-5" class="activator"><img src="images/conference/c1.jpg" alt="" /></a>
-								</div>
-								<div class="card-content">
-									<h3 class="card-title grey-text text-darken-4">
-										<a href="#popup-5" class="activator">
-											<span>ICITDA 2018</span>
-											<i class="material-icons right">more_vert</i>
-										</a>
-									</h3>
-									<span class="category blue-text text-darken-2">Conference</span>
-								</div>
-								<div id="popup-5" class="popup-box mfp-fade mfp-hide">
-									<div class="content">
-										<div class="image">
-											<img src="images/conference/c1.jpg" alt="">
-										</div>
-										<div class="desc">
-											<div class="category">Conference</div>
-											<h4>ICITDA 2018</h4>
-											<a href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212663855724550&type=3" class="btn waves-effect waves-light" target="_blank">Know More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card work-item conference all">
-								<div class="card-image waves-effect waves-block waves-light">
-									<a href="#popup-6" class="activator"><img src="images/conference/c2.jpg" alt="" /></a>
-								</div>
-								<div class="card-content">
-									<h3 class="card-title grey-text text-darken-4">
-										<a href="#popup-6" class="activator">
-											<span>ICITDA 2019</span>
-											<i class="material-icons right">more_vert</i>
-										</a>
-									</h3>
-									<span class="category blue-text text-darken-2">Conference</span>
-								</div>
-								<div id="popup-6" class="popup-box mfp-fade mfp-hide">
-									<div class="content">
-										<div class="image">
-											<img src="images/conference/c2.jpg" alt="">
-										</div>
-										<div class="desc">
-											<div class="category">Conference</div>
-											<h4>ICITDA 2019</h4>
-											<a href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10215047847042843&type=3" class="btn waves-effect waves-light" target="_blank">Know More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-								<div class="card work-item ct all">
-									<div class="card-image waves-effect waves-block waves-light">
-										<a href="#popup-6" class="activator"><img src="images/event/e1.jpg" alt="" /></a>
-									</div>
-									<div class="card-content">
-										<h3 class="card-title grey-text text-darken-4">
-											<a href="#popup-7" class="activator">
-												<span>Renaissance'18 of JECRC Foundation</span>
-												<i class="material-icons right">more_vert</i>
-											</a>
-										</h3>
-										<span class="category blue-text text-darken-2">Cultural Event</span>
-									</div>
-									<div id="popup-7" class="popup-box mfp-fade mfp-hide">
-										<div class="content">
-											<div class="image">
-												<img src="images/event/e1.jpg" alt="">
-											</div>
-											<div class="desc">
-												<div class="category">Cultural Event </div>
-												<h4>Renaissance'18 of JECRC Foundation</h4>
-												<a href="https://www.facebook.com/sunil.jangir07/media_set?set=a.10212624692945505&type=3" class="btn waves-effect waves-light" target="_blank">Know More</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col s12 m6 l4">
-									<div class="card work-item ct all">
-										<div class="card-image waves-effect waves-block waves-light">
-											<a href="#popup-8" class="activator"><img src="images/event/e2.jpg" alt="" /></a>
-										</div>
-										<div class="card-content">
-											<h3 class="card-title grey-text text-darken-4">
-												<a href="#popup-8" class="activator">
-													<span>Renaissance'18 of JECRC Foundation</span>
-													<i class="material-icons right">more_vert</i>
-												</a>
-											</h3>
-											<span class="category blue-text text-darken-2">Technical Event</span>
-										</div>
-										<div id="popup-8" class="popup-box mfp-fade mfp-hide">
-											<div class="content">
-												<div class="image">
-													<img src="images/event/e2.jpg" alt="">
-												</div>
-												<div class="desc">
-													<div class="category">Technical Event</div>
-													<h4>Renaissance'18 of JECRC Foundation</h4>
-													<a href="#" class="btn waves-effect waves-light">Know More</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-					</div>
-				</div>
-
-				<!-- Section Pricing -->
-				<div class="section pricing scrollspy" id="pricing-section">
-
-					<!-- Title -->
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="grey-text text-darken-2 left-align">Refrences</h5>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col s12 m6 l4">
-							<div class="card-panel">
-								<div class="pricing-table">
-									<div class="refrence-image">
-											<img src="./images/refrences/de-naveen.jpg" alt="" style="border-radius: 50px">
-									</div>
-									<div class="pt-title lead"><strong>Dr. Naveen Hemrajani</strong></div>
-									<div class="pt-feature-list text-left">
-										<ul>
-											<li>Head of Department (CSE)</li>
-											<li>School of Engineering & Technology,</li>
-											<li>JECRC University, Jaipur</li>
-											<li><strong>Email: </strong>naven_h@yahoo.com</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card-panel">
-								<div class="pricing-table">
-									<div class="refrence-image">
-										<img src="./images/refrences/chhagan_image.jpg" alt="" style="border-radius: 50px">
-									</div>
-									<div class="pt-title lead"><strong>Dr. Chaagan Choudhary</strong></div>
-									<div class="pt-feature-list text-left">
-										<ul>
-											<li>Postdoc Fellow</li>
-											<li>University of Padua</li>
-											<li>Padova PD, Italy</li>
-											<li><strong>Email: </strong>chhagan.iiita@gmail.com</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col s12 m6 l4">
-							<div class="card-panel">
-								<div class="pricing-table">
-									<div class="refrence-image">
-										<img src="./images/refrences/garima.mathur.jpg" alt="" style="border-radius: 50px">
-								</div>
-								<div class="pt-title lead"><strong>Dr. Garima Mathur</strong></div>
-									<div class="pt-feature-list text-left">
+            <div class="row">
+              <div class="col s12 m6 l4">
+                <div class="card-panel">
+                  <div class="pricing-table">
+                    <div class="refrence-image">
+                      <img
+                        src="./images/refrences/de-naveen.jpg"
+                        alt=""
+                        style="border-radius: 50px"
+                      />
+                    </div>
+                    <div class="pt-title lead">
+                      <strong>Dr. Naveen Hemrajani</strong>
+                    </div>
+                    <div class="pt-feature-list text-left">
+                      <ul>
+                        <li>Head of Department (CSE)</li>
+                        <li>School of Engineering & Technology,</li>
+                        <li>JECRC University, Jaipur</li>
+                        <li><strong>Email: </strong>naven_h@yahoo.com</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card-panel">
+                  <div class="pricing-table">
+                    <div class="refrence-image">
+                      <img
+                        src="./images/refrences/chhagan_image.jpg"
+                        alt=""
+                        style="border-radius: 50px"
+                      />
+                    </div>
+                    <div class="pt-title lead">
+                      <strong>Dr. Chaagan Choudhary</strong>
+                    </div>
+                    <div class="pt-feature-list text-left">
+                      <ul>
+                        <li>Postdoc Fellow</li>
+                        <li>University of Padua</li>
+                        <li>Padova PD, Italy</li>
+                        <li><strong>Email: </strong>chhagan.iiita@gmail.com</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6 l4">
+                <div class="card-panel">
+                  <div class="pricing-table">
+                    <div class="refrence-image">
+                      <img
+                        src="./images/refrences/garima.mathur.jpg"
+                        alt=""
+                        style="border-radius: 50px"
+                      />
+                    </div>
+                    <div class="pt-title lead">
+                      <strong>Dr. Garima Mathur</strong>
+                    </div>
+                    <div class="pt-feature-list text-left">
                       <ul>
                         <li>Head of Department (E&C)</li>
-                        <li>PCE, Sitapura, </li>
+                        <li>PCE, Sitapura,</li>
                         <li>Jaipur , Rajasthan</li>
-                        <li><strong>Email: </strong>garimamathurjec@gmail.com</li>
-				              </ul>
+                        <li>
+                          <strong>Email: </strong>garimamathurjec@gmail.com
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-				<!-- Blog -->
-				<!-- <div class="" id="blog-content"></div> -->
-				<div class="section blog scrollspy" id="blog-section">
+          <!-- Blog -->
+          <!-- <div class="" id="blog-content"></div> -->
+          <div class="section blog scrollspy" id="blog-section">
+            <!-- Title -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="grey-text text-darken-2 left-align">Blog</h5>
+              </div>
+            </div>
 
-					<!-- Title -->
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="grey-text text-darken-2 left-align">Blog</h5>
-						</div>
-					</div>
-					
-					<div class="row" id="blog-content"></div>
-					<div class="center-align">
-						<a href="blog.html" class="btn waves-effect waves-light">View Blog</a>
-					</div>
-				</div>
+            <div class="row" id="blog-content"></div>
+            <div class="center-align">
+              <a href="blog.html" class="btn waves-effect waves-light"
+                >View Blog</a
+              >
+            </div>
+          </div>
 
-				<!-- Section Contacts -->
-				<div class="section contacts scrollspy last" id="contact-section">
+          <!-- Section Contacts -->
+          <div class="section contacts scrollspy last" id="contact-section">
+            <!-- Title -->
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="grey-text text-darken-2 left-align">Contact Me</h5>
+              </div>
+            </div>
 
-					<!-- Title -->
-					<div class="row">
-						<div class="col s12 m12 l12">
-							<h5 class="grey-text text-darken-2 left-align">Contact Me</h5>
-						</div>
-					</div>
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <ul class="collection collection-info z-depth-1">
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s5 grey-text darken-1">
+                        <i class="material-icons">business</i> Address:
+                      </div>
+                      <div class="col s7 grey-text text-darken-4 right-align">
+                        Jaipur, Rajasthan
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s5 grey-text darken-1">
+                        <i class="material-icons">local_phone</i> Phone:
+                      </div>
+                      <div class="col s7 grey-text text-darken-4 right-align">
+                        <a href="tel:12562548456">+91 9251 039 749</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="col s5 grey-text darken-1">
+                        <i class="material-icons">email</i> E-mail:
+                      </div>
+                      <div class="col s7 grey-text text-darken-4 right-align">
+                        <a href="mailto:simply.jangir07@gmail.com"
+                          >simply.jangir07@gmail.com</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                  <li class="collection-item">
+                    <div class="row">
+                      <div class="map" id="map"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col s12 m12 l6">
+                <div class="card-panel">
+                  <div class="contact-form">
+                    <form
+                      id="gform"
+                      method="post"
+                      action="https://script.google.com/macros/s/AKfycbxPWZjU54Z4Bnf5zDva8Cd8rQI6MwWOptcVjIKDOake8NViv_U/exec"
+                    >
+                      <h5>Write a message:</h5>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input type="text" name="name" id="name_field" />
+                          <label for="name_field">Your Name</label>
+                        </div>
+                        <div class="input-field col s12">
+                          <input type="text" name="email" id="email_field" />
+                          <label for="email_field">Your Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                          <input
+                            type="text"
+                            name="subject"
+                            id="subject_field"
+                          />
+                          <label for="subject_field">Subject</label>
+                        </div>
+                        <div class="input-field col s12">
+                          <textarea
+                            name="message"
+                            id="message_field"
+                            class="materialize-textarea"
+                          ></textarea>
+                          <label for="message_field">Message</label>
+                        </div>
+                      </div>
+                      <a
+                        class="btn waves-effect waves-light"
+                        onclick="$('#gform').submit(); return false;"
+                        >Send Message</a
+                      >
+                    </form>
+                    <div class="alert-success">
+                      <p>
+                        Thanks, your message is sent successfully. I will
+                        contact you shortly!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-					<div class="row">
-						<div class="col s12 m12 l6">
-							<ul class="collection collection-info z-depth-1">
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s5 grey-text darken-1"><i class="material-icons">business</i> Address:</div>
-										<div class="col s7 grey-text text-darken-4 right-align">
-											Jaipur, Rajasthan
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s5 grey-text darken-1"><i class="material-icons">local_phone</i> Phone:</div>
-										<div class="col s7 grey-text text-darken-4 right-align">
-											<a href="tel:12562548456">+91 9251 039 749</a>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="col s5 grey-text darken-1"><i class="material-icons">email</i> E-mail:</div>
-										<div class="col s7 grey-text text-darken-4 right-align">
-											<a href="mailto:simply.jangir07@gmail.com">simply.jangir07@gmail.com</a>
-										</div>
-									</div>
-								</li>
-								<li class="collection-item">
-									<div class="row">
-										<div class="map" id="map"></div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="col s12 m12 l6">
-							<div class="card-panel">
-								<div class="contact-form">
-									<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbxPWZjU54Z4Bnf5zDva8Cd8rQI6MwWOptcVjIKDOake8NViv_U/exec">
-										<h5>Write a message:</h5>
-										<div class="row">
-											<div class="input-field col s12">
-												<input type="text" name="name" id="name_field" />
-												<label for="name_field">Your Name</label>
-											</div>
-											<div class="input-field col s12">
-												<input type="text" name="email" id="email_field" />
-												<label for="email_field">Your Email</label>
-											</div>
-											<div class="input-field col s12">
-												<input type="text" name="subject" id="subject_field" />
-												<label for="subject_field">Subject</label>
-											</div>
-											<div class="input-field col s12">
-												<textarea name="message" id="message_field" class="materialize-textarea"></textarea>
-												<label for="message_field">Message</label>
-											</div>
-										</div>
-										<a class="btn waves-effect waves-light" onclick="$('#gform').submit(); return false;">Send Message</a>
-									</form>
-									<div class="alert-success">
-										<p>Thanks, your message is sent successfully. I will contact you shortly!</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				</div>
-				
-			</div>
+        <!-- Footer -->
+        <footer>
+          <div class="copy">
+            Made with <i class="ion ion-heart"></i> © 2019 Dr. Sunil Kumar
+            Jangir. All rights reserved.
+          </div>
+        </footer>
+      </main>
+    </div>
 
-			<!-- Footer -->
-			<footer>
-				<div class="copy">
-					Made with <i class="ion ion-heart"></i> © 2019 Dr. Sunil Kumar
-					Jangir. All rights reserved.
-				  </div>
-			</footer>
+    <!-- jQuery Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/medium.js"></script>
 
-		</main>
-
-	</div>
-	
-	<!-- jQuery Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/materialize.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/magnific-popup.js"></script>
-	<script src="js/medium.js"></script>
-
-	<!-- Here map api -->
-	<script src="https://js.api.here.com/v3/3.0/mapsjs-core.js"
-	type="text/javascript" charset="utf-8"></script>
-	<script src="https://js.api.here.com/v3/3.0/mapsjs-service.js"
-	type="text/javascript" charset="utf-8"></script>
-	<script src="https://js.api.here.com/v3/3.0/mapsjs-ui.js" 
-      type="text/javascript" charset="utf-8"></script>
-	<!-- Main Scripts -->
-	<script src="js/main.js"></script>
-	
-</body>
-
+    <!-- Here map api -->
+    <script
+      src="https://js.api.here.com/v3/3.0/mapsjs-core.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="https://js.api.here.com/v3/3.0/mapsjs-service.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <!-- Main Scripts -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
