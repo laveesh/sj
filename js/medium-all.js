@@ -36,12 +36,12 @@ $(function() {
         output += item.title;
         output += '</span><p>';
         var indexOfFirstPTag = item.description.indexOf('<p>');
-        var indexOfLastAlpa =
+        var indexOfLastAlpha =
           item.description.indexOf('</p>') > 100
             ? indexOfFirstPTag + 100
             : item.description.indexOf('</p>');
 
-        output += item.description.substring(indexOfFirstPTag, indexOfLastAlpa);
+        output += item.description.substring(indexOfFirstPTag, indexOfLastAlpha);
         output += '...</p></div>';
         output += '<div class="card-action"><div class="badges">';
 
