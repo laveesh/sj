@@ -63,6 +63,7 @@ $(function() {
   /***
    **** Validate contact form
    ***/
+  /*
   $('#gform').validate({
     rules: {
       name: {
@@ -105,7 +106,7 @@ $(function() {
       });
     }
   });
-
+  */
   /***
    **** Validate comments form
    ***/

@@ -2033,11 +2033,11 @@
                       <h5>Write a message:</h5>
                       <div class="row">
                         <div class="input-field col s12">
-                          <input type="text" name="name" id="name_field" />
+                          <input type="text" name="name" id="name_field" disabled/>
                           <label for="name_field">Your Name</label>
                         </div>
                         <div class="input-field col s12">
-                          <input type="text" name="email" id="email_field" />
+                          <input type="text" name="email" id="email_field" disabled/>
                           <label for="email_field">Your Email</label>
                         </div>
                         <div class="input-field col s12">
@@ -2045,6 +2045,7 @@
                             type="text"
                             name="subject"
                             id="subject_field"
+                            disabled
                           />
                           <label for="subject_field">Subject</label>
                         </div>
@@ -2053,14 +2054,19 @@
                             name="message"
                             id="message_field"
                             class="materialize-textarea"
+                            disabled
                           ></textarea>
                           <label for="message_field">Message</label>
                         </div>
                       </div>
-                      <a
+                      <!-- <a
                         class="btn waves-effect waves-light"
                         onclick="$('#gform').submit(); return false;"
                         >Send Message</a
+                      > -->
+                      <a
+                        class="btn waves-effect waves-light" return false;"
+                        >Availabe soon...</a
                       >
                     </form>
                     <div class="alert-success">
