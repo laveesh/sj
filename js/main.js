@@ -17,8 +17,6 @@ $(function() {
       $('.preloader').fadeOut();
       $('body').addClass('ready');
     });
-    var age = new Date(new Date() - new Date("1987-10-09")).getFullYear() - 1970;
-    $('#age').html(age +" years");
   });
 
   /***
@@ -201,3 +199,6 @@ function initMap() {
 if ($('#map').length) {
   initMap();
 }
+
+var age = new Date(new Date() - new Date('1987-10-09')).getFullYear() - 1970;
+$('#age').html(age + ' years');
