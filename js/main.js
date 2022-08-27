@@ -202,3 +202,5 @@ if ($('#map').length) {
 
 var age = new Date(new Date() - new Date('1987-10-09')).getFullYear() - 1970;
 $('#age').html(age + ' years');
+
+$('#copyright-date').html(new Date().getFullYear());
