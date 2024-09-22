@@ -24,15 +24,8 @@ $(function() {
       for (var i = 0; i < 3; i++) {
         var item = response.items[i];
         output +=
-          '<div class="col s12 m12 l4"><div class="card"><div class="card-image">';
-        output +=
-          '<img src="' + item.thumbnail + '" alt="" style="height: 17em" />';
-        output += '<a href="';
-        output += item.link;
-        output +=
-          '" class="btn-floating btn-large halfway-fab waves-effect waves-light" target="_blank">';
-        output += '<i class="material-icons">more_vert</i></a>';
-        output += '</div><div class="card-content">';
+          '<div class="col s12 m12 l4"><div class="card">';
+        output += '<div class="card-content">';
         output += '<span class="card-title">';
         output += item.title;
         output += '</span><p>';
@@ -56,7 +49,12 @@ $(function() {
         output += '</div><div class="date">';
         var pubDate = new Date(item.pubDate);
         output += months[pubDate.getMonth()] + ', ' + pubDate.getFullYear();
-        output += '</div> <div class="clearfix"></div>';
+        output += '<a href="';
+        output += item.link;
+        output +=
+          '" target="_blank">';
+        output += '<i class="material-icons right">more_vert</i></a></div> <div class="clearfix"></div>';
+        
         output += '</div></div></div>';
       }
       $content.html(output);
